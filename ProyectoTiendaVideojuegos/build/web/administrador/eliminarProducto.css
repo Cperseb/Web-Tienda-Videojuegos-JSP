@@ -1,0 +1,76 @@
+body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #121212; /* Fondo oscuro */
+                color: #ffffff; /* Texto claro */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+            }
+
+            .table-container, .form-container {
+                background-color: #1c1c1c; /* Fondo oscuro */
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+                text-align: center;
+                width: 100%;
+                max-width: 800px;
+                margin-bottom: 20px;
+            }
+
+            .table-container h2, .form-container h2 {
+                color: #ff3333; /* Tono rojo */
+                margin-bottom: 20px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                background-color: #292929;
+                margin-bottom: 20px;
+            }
+
+            th, td {
+                border: 1px solid #444444;
+                padding: 10px;
+                text-align: center;
+                font-size: 14px;
+                color: #ffffff;
+            }
+
+            th {
+                background-color: #ff3333; /* Encabezado rojo */
+                color: #ffffff;
+            }
+
+            .form-container input, .form-container button {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+
+            .form-container input {
+                background-color: #292929;
+                color: #ffffff;
+            }
+
+            .form-container button {
+                background-color: #ff3333;
+                color: #ffffff;
+                cursor: pointer;
+            }
+
+            .form-container button:hover {
+                background-color: #cc0000;
+            }
+
+            .error {
+                color: red;
+                font-weight: bold;
+                margin-top: 10px;
+            }

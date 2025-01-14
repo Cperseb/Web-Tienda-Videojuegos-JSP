@@ -1,0 +1,70 @@
+            /* Estilos CSS */
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #121212; /* Fondo oscuro */
+                color: #ffffff; /* Texto claro */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            .login-container {
+                background-color: #1c1c1c; /* Fondo más oscuro */
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+                text-align: center;
+                width: 100%;
+                max-width: 400px;
+            }
+
+            .login-container img {
+                width: 100px; /* Tamaño ajustado */
+                margin-bottom: 20px;
+            }
+
+            .login-container h2 {
+                color: #ff3333; /* Tono rojo */
+                margin-bottom: 20px;
+            }
+
+            .login-container input[type="text"],
+            .login-container input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                background-color: #292929;
+                color: #ffffff;
+            }
+
+            .login-container button {
+                width: 100%;
+                padding: 10px;
+                background-color: #ff3333; /* Botón rojo */
+                border: none;
+                border-radius: 5px;
+                color: #ffffff;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+            .login-container button:hover {
+                background-color: #cc0000; /* Más oscuro al pasar el ratón */
+            }
+
+            .login-container p {
+                margin-top: 15px;
+                font-size: 14px;
+                color: #bbbbbb;
+            }
+
+            .login-container .error {
+                color: red;
+                font-size: 14px;
+                margin-top: 10px;
+            }
