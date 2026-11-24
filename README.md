@@ -16,6 +16,21 @@ Este proyecto implementa una tienda online funcional con control de acceso basad
 
 ---
 
+## 🚀 Cómo instalar y usar 
+
+### 1. Instala lo necesario en tu equipo
+1. **Java (JDK 8 o superior):** Descárgalo e instálalo (por ejemplo, desde Eclipse Temurin o Oracle JDK).
+2. **MySQL Server y MySQL Workbench:** Instala el servidor de base de datos MySQL y su herramienta visual **MySQL Workbench** (o usa XAMPP / Laragon si prefieres un paquete todo-en-uno). Anota bien el usuario (`root`) y la contraseña que pongas al instalarlo.
+3. **Apache NetBeans:** Descarga e instala Apache NetBeans (preferiblemente una versión que incluya soporte para Java Web y servidores como Apache Tomcat o GlassFish).
+
+### 2. Crea y rellena la base de datos
+1. Abre **MySQL Workbench** y conéctate a tu servidor local (`localhost`).
+2. Descarga o clona este repositorio en tu ordenador:
+   ```bash
+   git clone [https://github.com/Cperseb/Web-Tienda-Videojuegos-JSP.git](https://github.com/Cperseb/Web-Tienda-Videojuegos-JSP.git)
+
+---
+
 ## 🛠️ Stack Tecnológico
 
 * **Backend:** Java EE / Jakarta EE (JSP, Servlets, JDBC)
